@@ -1,0 +1,63 @@
+nav {
+  width: clamp(12.5rem, 77.72vw - 24.741rem, 25rem);
+  height: 100vh;
+  background: #ffff;
+  box-shadow: 0px 0px 20px 0px rgba(1, 41, 112, 0.1);
+  padding-top: 60px;
+}
+nav ul {
+  height: 382px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+nav a {
+  height: 44px;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  gap: 8px;
+  padding: 8px 10px;
+}
+nav a:hover {
+  background: #f6f9ff;
+}
+nav p {
+  color: #012970;
+  font-size: clamp(1rem, 1.554vw + 0.255rem, 1.25rem);
+  font-weight: 600;
+  line-height: 22.5px;
+  font-family: OpenSans;
+  margin: 0;
+}
+p:hover {
+  color: #4154f1;
+}
+nav .pi {
+  font-size: 20.14px;
+  color: #012970;
+}
+nav h5 {
+  font-family: OpenSans;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16.5px;
+  color: #899bbd;
+  height: 17px;
+  margin: 0;
+}
+.pi-bars {
+  border: solid 1px #012970;
+  padding: 0.5rem;
+  color: #012970;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  z-index: -1;
+  cursor: pointer;
+}

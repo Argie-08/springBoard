@@ -1,0 +1,84 @@
+.absentApp {
+  height: 100vh;
+}
+article section {
+  height: fit-content;
+  width: 1, 217px;
+  border-radius: 8px;
+  padding: 16px;
+  background: #ffffff;
+}
+article table {
+  height: 100%;
+  width: 100%;
+}
+table caption {
+  padding: 20px 0px 14.59px 0px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: clamp(1.167rem, 0.926vw + 0.735rem, 1.5rem);
+  line-height: 21.6px;
+  color: #012970;
+  margin: 0;
+  caption-side: top;
+}
+table .tableRow {
+  height: 41.8px;
+  width: 100%;
+  background: #f6f6fe;
+  border-bottom: solid 2px rgba(223, 223, 223, 0.69);
+}
+table th {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20.8px;
+  color: #444444;
+  width: 100%;
+  text-align: center;
+  padding: 9px 0px 11.8px 10px;
+}
+
+.numberTh {
+  width: 58px;
+  padding: 9px 76.22px 11.8px 10px;
+}
+table tbody {
+  height: 100%;
+  width: 100%;
+}
+table .rowRecord {
+  height: 54px;
+  width: 100%;
+  padding: 10px 8px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20.8px;
+  color: #7d7d7d;
+}
+.absentBtn {
+  width: 108px;
+  height: 40px;
+  border-radius: 8px;
+  background: #0d6efd;
+  color: #ffffff;
+  border: 0;
+  transition: 0.2s;
+}
+.absentBtn:hover {
+  background: #073b8a;
+}
+.progressAbsent {
+  background-color: #4154f1;
+  color: #ffffff !important;
+  border-radius: 6px;
+  text-align: center;
+  font-family: Roboto !important;
+  font-weight: 400 !important;
+  font-size: 13px !important;
+  height: fit-content !important;
+  display: flex;
+  justify-content: center;
+}
