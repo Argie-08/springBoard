@@ -1,7 +1,7 @@
 nav {
   width: clamp(12.5rem, 77.72vw - 24.741rem, 25rem);
-  height: 100vh;
-  background: #ffff;
+  height: 100%;
+  background: #ffffff;
   box-shadow: 0px 0px 20px 0px rgba(1, 41, 112, 0.1);
   padding-top: 60px;
 }

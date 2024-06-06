@@ -14,6 +14,7 @@
 }
 body {
   background: #edf1f7;
+  height: 100vh;
 }
 @font-face {
   font-family: OpenSans;
